@@ -1,3 +1,3 @@
 def call(Map params) {
-    git branch: '$(params.branch)', url: '$(params.url)'
+    git branch: "$(params.branch)", url: "$(params.url)"
 } 
